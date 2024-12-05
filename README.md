@@ -19,7 +19,6 @@ El objetivo de este proyecto es desarrollar un sistema inteligente que optimice 
 /c:/Proyectos/IA_EPIIS/
 │
 ├── data/               # Datos de entrada
-├── notebooks/          # Notebooks de Jupyter
 ├── src/                # Código fuente
 ├── models/             # Modelos entrenados
 └── README.md           # Este archivo
@@ -35,9 +34,26 @@ El objetivo de este proyecto es desarrollar un sistema inteligente que optimice 
     ```bash
     cd IA_EPIIS
     ```
-3. Instala las dependencias:
+3. Instala `virtualenv`:
+    ```bash
+    pip install virtualenv
+    ```
+4. Crea un entorno virtual:
+    ```bash
+    python -m venv .venv
+    ```
+5. Activa el entorno:
+    ```bash
+    .\.venv\Scripts\activate
+    ```
+6. Instala las dependencias:
     ```bash
     pip install -r requirements.txt
+    ```
+7. Ejecuta el programa:
+    ```bash
+    cd app
+    streamlit run main.py
     ```
 
 ## 🤝 Contribuciones

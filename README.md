@@ -56,6 +56,10 @@ El objetivo de este proyecto es desarrollar un sistema inteligente que optimice 
     cd app
     streamlit run main.py
     ```
+## Integrantes 👥
+- **Lucian Neptalí Fernandez Baca Castro**
+- **Jhon Jesus Quispe Machaca** - [GitHub](https://github.com/foreverlcd)
+- **Julio Cesar Sotelo Quispe** 
 
 ## 🤝 Contribuciones
 

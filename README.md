@@ -20,7 +20,6 @@ El objetivo de este proyecto es desarrollar un sistema inteligente que optimice 
 │
 ├── data/               # Datos de entrada
 ├── src/                # Código fuente
-├── models/             # Modelos entrenados
 └── README.md           # Este archivo
 ```
 

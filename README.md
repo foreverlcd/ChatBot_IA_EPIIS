@@ -59,9 +59,3 @@ El objetivo de este proyecto es desarrollar un sistema inteligente que optimice 
 ## 🤝 Contribuciones
 
 ¡Las contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request.
-
-## 📧 Contacto
-
-Para cualquier consulta, puedes contactarnos en [correo@ejemplo.com](mailto:correo@ejemplo.com).
-
-¡Gracias por tu interés en el proyecto **IA_EPIIS**! 🎉

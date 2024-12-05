@@ -16,9 +16,10 @@ El objetivo de este proyecto es desarrollar un sistema inteligente que optimice 
 ## 📁 Estructura del Proyecto
 
 ```
-/c:/Proyectos/IA_EPIIS/
+/IA_EPIIS/
 │
 ├── data/               # Datos de entrada
+├── image/              # Imagen de titulo
 ├── src/                # Código fuente
 ├── requirements.txt    # Requisitos
 └── README.md           # Este archivo

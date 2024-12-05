@@ -27,14 +27,11 @@ for archivo in documentos:
     with open(archivo, 'r', encoding='utf-8', errors='ignore') as f:
         texto_completo += f.read() + '\n'
 
-# Convertir todo el texto a minúsculas
-texto_completo = texto_completo.lower()
-
 # Tokenización del texto
 # Lista de oraciones
 oraciones = nltk.sent_tokenize(texto_completo)
 # Lista de palabras
-palabras = nltk.word_tokenize(texto_completo)
+palabras = nltk.word_tokenize(texto_completo.lower())
 
 # Crear un objeto lematizador
 lematizador = nltk.stem.WordNetLemmatizer()
@@ -54,7 +51,7 @@ def normalizar_texto(texto):
 def preprocesar_texto_usuario(respuesta_usuario):
     oraciones.append(respuesta_usuario)
     vectorizador_tfidf = TfidfVectorizer(tokenizer=normalizar_texto, stop_words=stopwords.words('spanish'), token_pattern=None)
-    matriz_tfidf = vectorizador_tfidf.fit_transform(oraciones)
+    matriz_tfidf = vectorizador_tfidf.fit_transform([oracion.lower() for oracion in oraciones])
     return matriz_tfidf
 
 # Función para generar una respuesta basada en la similitud del texto insertado y el corpus

@@ -107,7 +107,7 @@ SALUDOS_SALIDAS = ["Hola", "¿Qué tal?", "Hola, ¿Cómo te puedo ayudar?", "Hol
 
 # Interfaz de usuario con Streamlit
 st.title("Asistente Académico 📚")
-st.image("https://via.placeholder.com/800x200.png?text=Asistente+Académico", use_column_width=True)
+st.image("C:\Proyectos\IA_EPIIS\images\DALL·E 2024-12-05 00.08.52 - A beautiful and elegant academic assistant banner with a sophisticated design. The banner should have a clean gray background with smooth gradients, m.webp", use_container_width=True)
 st.write("Hola 😎, soy tu asistente académico y estoy para responder todas tus preguntas.")
 
 # Inicializar el historial de mensajes

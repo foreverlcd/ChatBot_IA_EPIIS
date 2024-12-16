@@ -29,7 +29,7 @@ El objetivo de este proyecto es desarrollar un sistema inteligente que optimice 
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu_usuario/IA_EPIIS.git
+    git clone https://github.com/foreverlcd/IA_EPIIS.git
     ```
 2. Navega al directorio del proyecto:
     ```bash
@@ -63,4 +63,4 @@ El objetivo de este proyecto es desarrollar un sistema inteligente que optimice 
 
 ## 🤝 Contribuciones
 
-¡Las contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request.
+¡Las contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request!

@@ -29,7 +29,7 @@ El objetivo de este proyecto es desarrollar un sistema inteligente que optimice 
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/foreverlcd/IA_EPIIS.git
+    git clone https://github.com/foreverlcd/ChatBot_IA_EPIIS.git
     ```
 2. Navega al directorio del proyecto:
     ```bash
